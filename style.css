@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: lightblue;
+    height: 25px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 18px 15px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.navLink {
+    margin: auto 20px;
+}
+
+.links {
+    background-color: lightblue;
+    padding: 10px 25px;
+    margin: 20px;
+    align-items: center;
+}
+
+.bigImg {
+    background-image: url(https://phonoteka.org/uploads/posts/2021-07/1625354522_15-phonoteka-org-p-oboi-neboskrebi-nyu-yorka-oboi-krasivo-15.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.bigImgP {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: cornsilk;
+    font-size: 150px;
+}
+
+
+/* body */
+.body {
+    background-color: lightblue;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 80px 80px;
+
+
+}
+
+.boxes {
+    background-color: white;
+    margin: 20px;
+    border-radius: 5%;
+    width: 250px;
+    padding: 25px 20px;
+}
+
+.insideBox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+
+}
+
+.insideBox img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    position: relative;
+    left: -35px;
+    top: -40px;
+}
+
+.boxNo {
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: red;
+    position: relative;
+    right: -40px;
+    top: -50px;
+
+}
+
+.boxTheme {
+font-size: 20px;
+position: relative;
+right: 30px;
+}
+
+.boxes a {
+    position: relative;
+    left: 60px;
+    top: -30px;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: orange;
+    padding: 15px;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: 550;
+} 
+
+
+
+@media (max-width: 1400px) {
+    .container {
+        display: block;
+        max-width: 1400px
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        display: block;
+        max-width: 750px
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        display: block;
+        max-width: 400px
+    }
+}
+
+
